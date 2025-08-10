@@ -4,7 +4,7 @@ Welcome to the Real Estate Advertisement System - a comprehensive web applicatio
 
 ![Main Dashboard](UI%20Pictures/main.png)
 
-*📸 **More UI Screenshots:** Check out the [UI Pictures](UI%20Pictures/) folder for additional screenshots of the application interface, including light/dark themes, filtering, and property creation views.*
+*📸 **More UI Screenshots:** Check out the [UI Pictures](UI%20Pictures/README.md) folder for additional screenshots of the application interface, including light/dark themes, filtering, and property creation views.*
 
 ## 🏗️ Project Structure
 
