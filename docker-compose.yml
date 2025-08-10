@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: real-estate-api:latest
+    container_name: real-estate-api
+    expose:
+      - "9090"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - JAVA_OPTS=
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_BASE=http://localhost:9090/api/v1/real-estate
+    image: real-estate-web:latest
+    container_name: real-estate-web
+    expose:
+      - "5050"
+    depends_on:
+      - api
+
+  proxy:
+    image: nginx:alpine
+    container_name: real-estate-proxy
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "10848:6985"
+    depends_on:
+      - api
+      - web
+
+

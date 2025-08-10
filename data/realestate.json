@@ -1,0 +1,540 @@
+{
+  "sale": {
+    "land": [
+      {
+        "id": "sale-land-001",
+        "whatUse": "residential",
+        "data": {
+          "address": "123 Green Valley Road, Tehran",
+          "email": "ahmad.karimi@email.com",
+          "area": 500.0,
+          "fullPrice": 250000.0,
+          "ownerFullName": "Ahmad Karimi"
+        }
+      },
+      {
+        "id": "sale-land-002",
+        "whatUse": "commercial",
+        "data": {
+          "address": "456 Industrial Zone, Isfahan",
+          "email": "sara.mohammadi@email.com",
+          "area": 1200.0,
+          "fullPrice": 800000.0,
+          "ownerFullName": "Sara Mohammadi"
+        }
+      },
+      {
+        "id": "sale-land-003",
+        "whatUse": "residential",
+        "data": {
+          "address": "789 Mountain View, Shiraz",
+          "email": "reza.ahmadi@email.com",
+          "area": 800.0,
+          "fullPrice": 450000.0,
+          "ownerFullName": "Reza Ahmadi"
+        }
+      }
+    ],
+    "commercial": {
+      "office": [
+        {
+          "id": "sale-office-001",
+          "roomCount": 8,
+          "data": {
+            "address": "101 Business Center, Tehran",
+            "email": "ali.bagheri@email.com",
+            "area": 300.0,
+            "fullPrice": 1200000.0,
+            "ownerFullName": "Ali Bagheri"
+          }
+        },
+        {
+          "id": "sale-office-002",
+          "roomCount": 5,
+          "data": {
+            "address": "202 Corporate Plaza, Mashhad",
+            "email": "fateme.naseri@email.com",
+            "area": 200.0,
+            "fullPrice": 750000.0,
+            "ownerFullName": "Fateme Naseri"
+          }
+        },
+        {
+          "id": "sale-office-003",
+          "roomCount": 12,
+          "data": {
+            "address": "303 Tower Building, Tabriz",
+            "email": "mohammad.rahimi@email.com",
+            "area": 450.0,
+            "fullPrice": 1800000.0,
+            "ownerFullName": "Mohammad Rahimi"
+          }
+        },
+        {
+          "id": "sale-office-004",
+          "roomCount": 6,
+          "data": {
+            "address": "404 Office Complex, Kerman",
+            "email": "zahra.sadeghi@email.com",
+            "area": 250.0,
+            "fullPrice": 900000.0,
+            "ownerFullName": "Zahra Sadeghi"
+          }
+        }
+      ],
+      "shop": [
+        {
+          "id": "sale-shop-001",
+          "roomCount": 3,
+          "data": {
+            "address": "505 Shopping Mall, Tehran",
+            "email": "hossein.mirzaei@email.com",
+            "area": 150.0,
+            "fullPrice": 600000.0,
+            "ownerFullName": "Hossein Mirzaei"
+          }
+        },
+        {
+          "id": "sale-shop-002",
+          "roomCount": 2,
+          "data": {
+            "address": "606 Retail Center, Isfahan",
+            "email": "maryam.ghasemi@email.com",
+            "area": 100.0,
+            "fullPrice": 400000.0,
+            "ownerFullName": "Maryam Ghasemi"
+          }
+        },
+        {
+          "id": "sale-shop-003",
+          "roomCount": 4,
+          "data": {
+            "address": "707 Commercial Street, Shiraz",
+            "email": "amir.nejati@email.com",
+            "area": 180.0,
+            "fullPrice": 700000.0,
+            "ownerFullName": "Amir Nejati"
+          }
+        }
+      ]
+    },
+    "residential": {
+      "villa": [
+        {
+          "id": "sale-villa-001",
+          "yardArea": 400.0,
+          "data": {
+            "address": "808 Luxury Villa, Tehran",
+            "email": "parisa.azimi@email.com",
+            "area": 350.0,
+            "fullPrice": 2500000.0,
+            "ownerFullName": "Parisa Azimi"
+          }
+        },
+        {
+          "id": "sale-villa-002",
+          "yardArea": 300.0,
+          "data": {
+            "address": "909 Garden Villa, Isfahan",
+            "email": "mehdi.soltani@email.com",
+            "area": 280.0,
+            "fullPrice": 1800000.0,
+            "ownerFullName": "Mehdi Soltani"
+          }
+        },
+        {
+          "id": "sale-villa-003",
+          "yardArea": 500.0,
+          "data": {
+            "address": "1010 Mountain Villa, Shiraz",
+            "email": "narges.moradi@email.com",
+            "area": 420.0,
+            "fullPrice": 3200000.0,
+            "ownerFullName": "Narges Moradi"
+          }
+        },
+        {
+          "id": "sale-villa-004",
+          "yardArea": 250.0,
+          "data": {
+            "address": "1111 Lake Villa, Mashhad",
+            "email": "saeed.ebrahimi@email.com",
+            "area": 220.0,
+            "fullPrice": 1500000.0,
+            "ownerFullName": "Saeed Ebrahimi"
+          }
+        },
+        {
+          "id": "sale-villa-005",
+          "yardArea": 350.0,
+          "data": {
+            "address": "1212 Forest Villa, Tabriz",
+            "email": "elham.karimi@email.com",
+            "area": 300.0,
+            "fullPrice": 2000000.0,
+            "ownerFullName": "Elham Karimi"
+          }
+        }
+      ],
+      "apartment": [
+        {
+          "id": "sale-apartment-001",
+          "floorCount": 15,
+          "roomCount": 3,
+          "data": {
+            "address": "1313 High Rise, Tehran",
+            "email": "javad.ahmadi@email.com",
+            "area": 120.0,
+            "fullPrice": 800000.0,
+            "ownerFullName": "Javad Ahmadi"
+          }
+        },
+        {
+          "id": "sale-apartment-002",
+          "floorCount": 12,
+          "roomCount": 2,
+          "data": {
+            "address": "1414 Modern Tower, Isfahan",
+            "email": "roya.sadeghi@email.com",
+            "area": 90.0,
+            "fullPrice": 550000.0,
+            "ownerFullName": "Roya Sadeghi"
+          }
+        },
+        {
+          "id": "sale-apartment-003",
+          "floorCount": 20,
+          "roomCount": 4,
+          "data": {
+            "address": "1515 Luxury Apartment, Shiraz",
+            "email": "ali.rezaei@email.com",
+            "area": 150.0,
+            "fullPrice": 1200000.0,
+            "ownerFullName": "Ali Rezaei"
+          }
+        },
+        {
+          "id": "sale-apartment-004",
+          "floorCount": 8,
+          "roomCount": 2,
+          "data": {
+            "address": "1616 Comfort Home, Mashhad",
+            "email": "sara.mohammadi@email.com",
+            "area": 85.0,
+            "fullPrice": 450000.0,
+            "ownerFullName": "Sara Mohammadi"
+          }
+        },
+        {
+          "id": "sale-apartment-005",
+          "floorCount": 18,
+          "roomCount": 3,
+          "data": {
+            "address": "1717 City View, Tabriz",
+            "email": "mohsen.najafi@email.com",
+            "area": 110.0,
+            "fullPrice": 750000.0,
+            "ownerFullName": "Mohsen Najafi"
+          }
+        }
+      ]
+    }
+  },
+  "rent": {
+    "land": [
+      {
+        "id": "rent-land-001",
+        "whatUse": "commercial",
+        "data": {
+          "address": "1818 Industrial Land, Tehran",
+          "email": "ahmad.gholami@email.com",
+          "area": 800.0,
+          "rentPrice": 5000.0,
+          "mortgagePrice": 50000.0,
+          "ownerFullName": "Ahmad Gholami"
+        }
+      },
+      {
+        "id": "rent-land-002",
+        "whatUse": "residential",
+        "data": {
+          "address": "1919 Garden Land, Isfahan",
+          "email": "fateme.rahimi@email.com",
+          "area": 600.0,
+          "rentPrice": 3000.0,
+          "mortgagePrice": 30000.0,
+          "ownerFullName": "Fateme Rahimi"
+        }
+      },
+      {
+        "id": "rent-land-003",
+        "whatUse": "commercial",
+        "data": {
+          "address": "2020 Business Land, Shiraz",
+          "email": "reza.mirzaei@email.com",
+          "area": 1000.0,
+          "rentPrice": 8000.0,
+          "mortgagePrice": 80000.0,
+          "ownerFullName": "Reza Mirzaei"
+        }
+      },
+      {
+        "id": "rent-land-004",
+        "whatUse": "residential",
+        "data": {
+          "address": "2121 Farm Land, Mashhad",
+          "email": "maryam.soltani@email.com",
+          "area": 1200.0,
+          "rentPrice": 4000.0,
+          "mortgagePrice": 40000.0,
+          "ownerFullName": "Maryam Soltani"
+        }
+      }
+    ],
+    "commercial": {
+      "office": [
+        {
+          "id": "rent-office-001",
+          "roomCount": 6,
+          "data": {
+            "address": "2222 Business Center, Tehran",
+            "email": "ali.naseri@email.com",
+            "area": 250.0,
+            "rentPrice": 4000.0,
+            "mortgagePrice": 20000.0,
+            "ownerFullName": "Ali Naseri"
+          }
+        },
+        {
+          "id": "rent-office-002",
+          "roomCount": 4,
+          "data": {
+            "address": "2323 Office Complex, Isfahan",
+            "email": "zahra.azimi@email.com",
+            "area": 180.0,
+            "rentPrice": 3000.0,
+            "mortgagePrice": 15000.0,
+            "ownerFullName": "Zahra Azimi"
+          }
+        },
+        {
+          "id": "rent-office-003",
+          "roomCount": 8,
+          "data": {
+            "address": "2424 Corporate Tower, Shiraz",
+            "email": "hossein.karimi@email.com",
+            "area": 320.0,
+            "rentPrice": 6000.0,
+            "mortgagePrice": 30000.0,
+            "ownerFullName": "Hossein Karimi"
+          }
+        },
+        {
+          "id": "rent-office-004",
+          "roomCount": 5,
+          "data": {
+            "address": "2525 Professional Center, Mashhad",
+            "email": "elham.mohammadi@email.com",
+            "area": 200.0,
+            "rentPrice": 3500.0,
+            "mortgagePrice": 18000.0,
+            "ownerFullName": "Elham Mohammadi"
+          }
+        },
+        {
+          "id": "rent-office-005",
+          "roomCount": 7,
+          "data": {
+            "address": "2626 Executive Plaza, Tabriz",
+            "email": "saeed.ahmadi@email.com",
+            "area": 280.0,
+            "rentPrice": 5000.0,
+            "mortgagePrice": 25000.0,
+            "ownerFullName": "Saeed Ahmadi"
+          }
+        }
+      ],
+      "shop": [
+        {
+          "id": "rent-shop-001",
+          "roomCount": 3,
+          "data": {
+            "address": "2727 Shopping Center, Tehran",
+            "email": "parisa.sadeghi@email.com",
+            "area": 120.0,
+            "rentPrice": 2500.0,
+            "mortgagePrice": 12000.0,
+            "ownerFullName": "Parisa Sadeghi"
+          }
+        },
+        {
+          "id": "rent-shop-002",
+          "roomCount": 2,
+          "data": {
+            "address": "2828 Retail Mall, Isfahan",
+            "email": "mehdi.nejati@email.com",
+            "area": 80.0,
+            "rentPrice": 1800.0,
+            "mortgagePrice": 8000.0,
+            "ownerFullName": "Mehdi Nejati"
+          }
+        },
+        {
+          "id": "rent-shop-003",
+          "roomCount": 4,
+          "data": {
+            "address": "2929 Commercial Street, Shiraz",
+            "email": "roya.mirzaei@email.com",
+            "area": 150.0,
+            "rentPrice": 3200.0,
+            "mortgagePrice": 15000.0,
+            "ownerFullName": "Roya Mirzaei"
+          }
+        },
+        {
+          "id": "rent-shop-004",
+          "roomCount": 2,
+          "data": {
+            "address": "3030 Market Place, Mashhad",
+            "email": "javad.ghasemi@email.com",
+            "area": 90.0,
+            "rentPrice": 2000.0,
+            "mortgagePrice": 10000.0,
+            "ownerFullName": "Javad Ghasemi"
+          }
+        }
+      ]
+    },
+    "residential": {
+      "villa": [
+        {
+          "id": "rent-villa-001",
+          "yardArea": 300.0,
+          "data": {
+            "address": "3131 Luxury Villa, Tehran",
+            "email": "narges.rahimi@email.com",
+            "area": 280.0,
+            "rentPrice": 8000.0,
+            "mortgagePrice": 40000.0,
+            "ownerFullName": "Narges Rahimi"
+          }
+        },
+        {
+          "id": "rent-villa-002",
+          "yardArea": 250.0,
+          "data": {
+            "address": "3232 Garden Villa, Isfahan",
+            "email": "amir.soltani@email.com",
+            "area": 220.0,
+            "rentPrice": 6000.0,
+            "mortgagePrice": 30000.0,
+            "ownerFullName": "Amir Soltani"
+          }
+        },
+        {
+          "id": "rent-villa-003",
+          "yardArea": 400.0,
+          "data": {
+            "address": "3333 Mountain Villa, Shiraz",
+            "email": "fateme.karimi@email.com",
+            "area": 320.0,
+            "rentPrice": 10000.0,
+            "mortgagePrice": 50000.0,
+            "ownerFullName": "Fateme Karimi"
+          }
+        },
+        {
+          "id": "rent-villa-004",
+          "yardArea": 200.0,
+          "data": {
+            "address": "3434 Lake Villa, Mashhad",
+            "email": "ali.moradi@email.com",
+            "area": 180.0,
+            "rentPrice": 5000.0,
+            "mortgagePrice": 25000.0,
+            "ownerFullName": "Ali Moradi"
+          }
+        },
+        {
+          "id": "rent-villa-005",
+          "yardArea": 350.0,
+          "data": {
+            "address": "3535 Forest Villa, Tabriz",
+            "email": "sara.ebrahimi@email.com",
+            "area": 260.0,
+            "rentPrice": 7000.0,
+            "mortgagePrice": 35000.0,
+            "ownerFullName": "Sara Ebrahimi"
+          }
+        }
+      ],
+      "apartment": [
+        {
+          "id": "rent-apartment-001",
+          "floorCount": 12,
+          "roomCount": 2,
+          "data": {
+            "address": "3636 Modern Apartment, Tehran",
+            "email": "reza.azimi@email.com",
+            "area": 85.0,
+            "rentPrice": 2000.0,
+            "mortgagePrice": 10000.0,
+            "ownerFullName": "Reza Azimi"
+          }
+        },
+        {
+          "id": "rent-apartment-002",
+          "floorCount": 8,
+          "roomCount": 3,
+          "data": {
+            "address": "3737 Comfort Home, Isfahan",
+            "email": "maryam.sadeghi@email.com",
+            "area": 110.0,
+            "rentPrice": 2800.0,
+            "mortgagePrice": 14000.0,
+            "ownerFullName": "Maryam Sadeghi"
+          }
+        },
+        {
+          "id": "rent-apartment-003",
+          "floorCount": 15,
+          "roomCount": 2,
+          "data": {
+            "address": "3838 City View, Shiraz",
+            "email": "hossein.nejati@email.com",
+            "area": 95.0,
+            "rentPrice": 2200.0,
+            "mortgagePrice": 11000.0,
+            "ownerFullName": "Hossein Nejati"
+          }
+        },
+        {
+          "id": "rent-apartment-004",
+          "floorCount": 10,
+          "roomCount": 3,
+          "data": {
+            "address": "3939 High Rise, Mashhad",
+            "email": "elham.mirzaei@email.com",
+            "area": 120.0,
+            "rentPrice": 3000.0,
+            "mortgagePrice": 15000.0,
+            "ownerFullName": "Elham Mirzaei"
+          }
+        },
+        {
+          "id": "rent-apartment-005",
+          "floorCount": 18,
+          "roomCount": 4,
+          "data": {
+            "address": "4040 Luxury Tower, Tabriz",
+            "email": "saeed.ghasemi@email.com",
+            "area": 140.0,
+            "rentPrice": 3500.0,
+            "mortgagePrice": 18000.0,
+            "ownerFullName": "Saeed Ghasemi"
+          }
+        }
+      ]
+    }
+  }
+}
