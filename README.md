@@ -34,6 +34,15 @@ This command will:
 - Configure Nginx as a reverse proxy
 - Set up all necessary networking between services
 
+### Accessing the Application
+
+After running `docker compose up -d --build`, open your browser and navigate to:
+**http://localhost:16985**
+
+### Setting Up Test Data
+
+For testing purposes, you can copy the content of `realstate.json.test` to `realstate.json` to populate the application with sample data.
+
 
 ## 📚 Documentation
 
