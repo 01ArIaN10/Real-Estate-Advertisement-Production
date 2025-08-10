@@ -34,11 +34,6 @@ This command will:
 - Configure Nginx as a reverse proxy
 - Set up all necessary networking between services
 
-### Accessing the Application
-
-- **Frontend Application:** http://localhost:3000
-- **Backend API:** http://localhost:8080
-- **API Documentation:** http://localhost:8080/api/
 
 ## 📚 Documentation
 

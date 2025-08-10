@@ -34,7 +34,7 @@ services:
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
     ports:
-      - "10848:6985"
+      - "16985:80"
     depends_on:
       - api
       - web

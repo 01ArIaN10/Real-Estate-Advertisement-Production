@@ -11,7 +11,7 @@ Welcome to the Real Estate API - a comprehensive REST API for managing real esta
 ## Base URL
 
 ```
-http://localhost:8080
+http://localhost:16985
 ```
 
 ## Authentication
