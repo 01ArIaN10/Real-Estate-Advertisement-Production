@@ -2,6 +2,10 @@
 
 Welcome to the Real Estate Advertisement System - a comprehensive web application for managing real estate properties with advanced search, filtering, and management capabilities.
 
+![Main Dashboard](UI%20Pictures/main.png)
+
+*📸 **More UI Screenshots:** Check out the [UI Pictures](UI%20Pictures/) folder for additional screenshots of the application interface, including light/dark themes, filtering, and property creation views.*
+
 ## 🏗️ Project Structure
 
 ```
@@ -47,6 +51,7 @@ For testing purposes, you can copy the content of `realstate.json.test` to `real
 ## 📚 Documentation
 
 - **Complete API Documentation:** [server/API_DOCUMENTATION.md](server/API_DOCUMENTATION.md)
+- **Frontend UI Documentation:** [frontend/UI_DOCUMENTATION.md](frontend/UI_DOCUMENTATION.md)
 - **Backend Code:** Located in `/server` directory
 - **Frontend Code:** Located in `/frontend` directory
 
